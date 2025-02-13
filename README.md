@@ -20,6 +20,8 @@ DATABASE_HOST = 'localhost'
 
 _En el proyecto se encuentra una archivo llamado schema.sql donde se encontraran los scrips para la creacion de la base de datos, tablas y datos de prueba_
 
+_Para iniciar el proyecto se debe hacer el comando npm run dev_
+
 ## Desiciones tecnicas
 
 _Este proyecto esta realizado con node.js junto a express y typeorm, junto a una base de datos PostgreSQL y programado con typescript. La razon por la cual escogi typeorm versus otros ORM disponibles es que este ofrece soporte para typescript de buena manera, ya que en experiencia propia con otros orms he tenido ciertas dificultades y en opinion propia siento que su forma de realizar el crud es ordenada y facil de realizar_
