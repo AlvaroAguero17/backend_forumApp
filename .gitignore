@@ -1,0 +1,43 @@
+# Dependencias de Node.js
+/node_modules
+
+# Archivos de compilación de TypeScript
+/build
+/out-tsc
+/*.tsbuildinfo
+
+# Archivos de configuración de TypeScript
+tsconfig.tsbuildinfo
+
+# Archivos de log
+*.log
+
+# Archivos de entorno
+.env
+.env.* 
+
+# Archivos de sistema de archivos
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Dependencias de herramientas de desarrollo
+/package-lock.json
+/yarn.lock
+
+# Archivos de IDE
+/.idea
+/.vscode
+
+# Archivos temporales
+*.swp
+*.swo
+
+# Test coverage output
+/coverage
+
+# Archivos de configuración de editor
+.vscode/
+
+# Archivos generados por herramientas de CI/CD
+/.npm
+/.yarn
